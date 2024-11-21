@@ -7,8 +7,12 @@ body{
     width: 280px;
 }
 header{
-    color: rgb(247, 152, 29);
+    color: rgb(224, 132, 10);
     height: 130px;
+}
+ul{
+    margin-top: -13%;
+    color: rgb(224, 132, 10);
 }
 li{
     font-weight: 100;
@@ -54,6 +58,7 @@ p{
 #diebox{
     background-color: white;
     margin-top: 1%;
+    height: 530px;
 }
 #videokep{
     display: inline;
@@ -72,6 +77,36 @@ p{
     margin-left: 3%;
     margin-top: 10%;
 }
+p{
+    margin-bottom: 5px;
+}
 h1{
     font-size: 40px
+}
+#diemehr{
+    border: solid, 2px, rgb(224, 132, 10);
+    border-radius: 2px;
+    color: rgb(224, 132, 10);
+    padding: 1%;
+    margin-left: 50%;
+    margin-right: 33%;
+}
+#furdich{
+    background-color: lightblue;
+    padding: 1%;
+}
+#felso{
+    text-align: center;
+}
+h3{
+    color: rgb(224, 132, 10);
+}
+#wod{
+    display: inline;
+}
+#basics{
+    display: inline;
+}
+#strength{
+    display: inline;
 }
