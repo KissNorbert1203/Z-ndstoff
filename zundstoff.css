@@ -85,28 +85,64 @@ h1{
 }
 #diemehr{
     border: solid, 2px, rgb(224, 132, 10);
-    border-radius: 2px;
+    border-radius: 4px;
     color: rgb(224, 132, 10);
     padding: 1%;
     margin-left: 50%;
     margin-right: 33%;
 }
-#furdich{
+.furdich{
     background-color: lightblue;
     padding: 1%;
+    height: 500px;
 }
 #felso{
     text-align: center;
 }
 h3{
-    color: rgb(224, 132, 10);
+    color: rgb(240, 137, 3);
+    font-size: 30px;
+}
+h2{
+    font-size: 33px;
 }
 #wod{
-    display: inline;
+    width: 33%;
+    float: left;
+    line-height: 25px;
 }
 #basics{
-    display: inline;
+    width: 33%;
+    float: inline-start;
+    line-height: 25px;
 }
 #strength{
+    width: 33%;
+    float: right;
+    line-height: 25px;
+}
+#furmehr{
+    border: solid, 2px, rgb(224, 132, 10);
+    border-radius: 4px;
+    color: rgb(224, 132, 10);
+    padding: 1%;
+    margin-top: 22%;
+    text-align: center;
+    margin-left: 42%;
+    margin-right: 47%;
+}
+.training{
+    height: 700px;
+}
+#kez{
     display: inline;
+    width: 55%;
+    float: left;
+    image-rendering: auto;
+    
+}
+#kezszoveg{
+    width: 45%;
+    display: inline;
+    float: right;
 }
