@@ -81,7 +81,7 @@ p{
     margin-bottom: 5px;
 }
 h1{
-    font-size: 40px
+    font-size: 40px;
 }
 #diemehr{
     border: solid, 2px, rgb(224, 132, 10);
@@ -94,7 +94,7 @@ h1{
 .furdich{
     background-color: lightblue;
     padding: 1%;
-    height: 500px;
+    height: 550px;
 }
 #felso{
     text-align: center;
@@ -132,17 +132,143 @@ h2{
     margin-right: 47%;
 }
 .training{
-    height: 700px;
+    height: 600px;
 }
 #kez{
     display: inline;
     width: 55%;
     float: left;
     image-rendering: auto;
-    
+}
+#kezkep{
+    margin-left: 10%;
+    margin-top: 50px;
 }
 #kezszoveg{
     width: 45%;
     display: inline;
     float: right;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+#trainmehr{
+    border: solid, 2px, rgb(224, 132, 10);
+    border-radius: 4px;
+    color: rgb(224, 132, 10);
+    padding: 1%;
+    text-align: center;
+    margin-left: 55%;
+    margin-right: 33%;
+    margin-top: -120px;
+}
+.preise{
+    background-color: lightblue;
+    padding: 2%;
+    height: 550px;
+    margin-top: 70px;
+    font-size: 15px;
+}
+#newsletter{
+    width: 30%;
+    float: left;
+    line-height: 25px;
+    padding: 1%;
+}
+#boxok{
+    border: solid, 2px, rgb(224, 132, 10);
+    border-radius: 4px;
+    color: rgb(224, 132, 10);
+    padding: 2%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#gutschein{
+    width: 30%;
+    float: inline-start;
+    line-height: 25px;
+    padding: 1%;
+}
+#drop-in{
+    width: 30%;
+    float: right;
+    line-height: 25px;
+    padding: 1%;
+}
+#felsoszoveg{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#preisemehr{
+    border: solid, 2px, rgb(224, 132, 10);
+    border-radius: 4px;
+    color: rgb(224, 132, 10);
+    padding: 1%;
+    text-align: center;
+    margin-left: 41%;
+    margin-right: 42%;
+    margin-top: -70px;
+}
+.haromresz{
+    color: white;
+    height: 200px;
+    font-size: 17px;
+    line-height: 25px;
+}
+#elso{
+    width: 33%;
+    height: 500px;
+    float: left;
+    background-image: url(img/start.jpg);
+    text-align: center;
+}
+#masodik{
+    width: 34%;
+    height: 500px;
+    float: inline-start;
+    background-image: url(img/szemelyi.jpg);
+    text-align: center;
+}
+#harmadik{
+    width: 31%;
+    height: 500px;
+    float: right;
+    background-image: url(img/tartos.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 1%;
+}
+#elsomehr{
+    border: solid, 2px, rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    text-align: center;
+    padding: 2%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 45px;
+}
+#intro1{
+    border: solid, 2px, rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    text-align: center;
+    padding: 2%;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 45px;
+}
+#intro2{
+    border: solid, 2px, rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 45px;
 }
