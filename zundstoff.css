@@ -93,8 +93,12 @@ h1{
 }
 .furdich{
     background-color: lightblue;
-    padding: 1%;
     height: 550px;
+}
+.elsoharom{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 #felso{
     text-align: center;
@@ -107,27 +111,28 @@ h2{
     font-size: 33px;
 }
 #wod{
-    width: 33%;
-    float: left;
     line-height: 25px;
+    flex-grow: 1;
+    width: 33%;
 }
 #basics{
-    width: 33%;
-    float: inline-start;
     line-height: 25px;
+    flex-grow: 1;
+    width: 33%;
 }
 #strength{
-    width: 33%;
-    float: right;
     line-height: 25px;
+    flex-grow: 1;
+    width: 33%;
 }
 #furmehr{
+    display: block;
     border: solid, 2px, rgb(224, 132, 10);
     border-radius: 4px;
     color: rgb(224, 132, 10);
     padding: 1%;
-    margin-top: 22%;
     text-align: center;
+    margin-top: 5%;
     margin-left: 42%;
     margin-right: 47%;
 }
@@ -168,9 +173,10 @@ h2{
     margin-top: 70px;
     font-size: 15px;
 }
+.masodikharom{
+    display: flex;
+}
 #newsletter{
-    width: 30%;
-    float: left;
     line-height: 25px;
     padding: 1%;
 }
@@ -185,14 +191,10 @@ h2{
     margin-right: 25%;
 }
 #gutschein{
-    width: 30%;
-    float: inline-start;
     line-height: 25px;
     padding: 1%;
 }
 #drop-in{
-    width: 30%;
-    float: right;
     line-height: 25px;
     padding: 1%;
 }
@@ -215,29 +217,29 @@ h2{
     height: 200px;
     font-size: 17px;
     line-height: 25px;
+    display: flex;
 }
 #elso{
     width: 33%;
     height: 500px;
-    float: left;
+    flex-grow: 1;
     background-image: url(img/start.jpg);
     text-align: center;
 }
 #masodik{
-    width: 34%;
+    width: 33%;
     height: 500px;
-    float: inline-start;
+    flex-grow: 1;
     background-image: url(img/szemelyi.jpg);
     text-align: center;
 }
 #harmadik{
-    width: 31%;
+    width: 33%;
     height: 500px;
-    float: right;
+    flex-grow: 1;
     background-image: url(img/tartos.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    padding: 1%;
 }
 #elsomehr{
     border: solid, 2px, rgb(255, 255, 255);
@@ -271,20 +273,22 @@ h2{
     margin-right: 37%;
     margin-top: 45px;
 }
+.mission{
+    display: flex;
+    margin-top: 20%;
+    padding: 1%;
+}
 #sulyzo{
-    display: inline;
     width: 50%;
-    float: left;
-    image-rendering: auto;
 }
 #sulyzokep{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 50px;
 }
 #sulyzoszoveg{
     width: 50%;
-    display: inline;
-    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
     font-size: 19px;
     line-height: 35px;
 }
@@ -300,6 +304,40 @@ h2{
     margin-left: 35%;
 }
 .pandemie{
-    background-image: url(img/tartos.jpg);
+    background-image: url(img/header.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 30px;
+    display: block;
+    color: white;
+    text-align: center;
+    height: 180px;
+    padding: 2%;
+    margin-top: 3%;
+}
+span{
+    color: rgb(0, 140, 255);
+}
+.utolsoharom{
+    display: flex;
+}
+#uns1{
+    width: 33%;
+}
+#uns2{
+    width: 33%;
+}
+#uns3{
+    width: 33%;
+}
+#facebook{
+    height: 50px;
+    padding-right: 70px;
+}
+#insta{
+    height: 50px;
+    padding-right: 70px;
+}
+#crossfit{
+    height: 50px;
 }
