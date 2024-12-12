@@ -1,3 +1,6 @@
+html{
+    margin-left: -10px;
+}
 body{
     background-color: white;
     width: 100%;
@@ -62,11 +65,11 @@ p{
     display: flex;
 }
 #videokep{
-    flex-grow: 1;
+    margin-right: 20px;
 }
 #dietext{
-    
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 28px;
     margin-left: 25px;
     margin-right: 70px;
 }
@@ -88,7 +91,7 @@ h1{
     padding: 10px;
     margin-top: 2%;
     margin-left: 27%;
-    margin-right: 55%;
+    margin-right: 53%;
 }
 .furdich{
     background-color: lightblue;
@@ -219,6 +222,8 @@ h2{
     flex-grow: 1;
     background-image: url(img/start.jpg);
     text-align: center;
+    background-position: center;
+    size: cover;
 }
 #masodik{
     width: 33%;
@@ -226,6 +231,8 @@ h2{
     flex-grow: 1;
     background-image: url(img/szemelyi.jpg);
     text-align: center;
+    background-position: center;
+    size: cover;
 }
 #harmadik{
     width: 33%;
@@ -234,6 +241,8 @@ h2{
     background-image: url(img/tartos.jpg);
     background-repeat: no-repeat;
     text-align: center;
+    background-position: center;
+    size: cover;
 }
 #elsomehr{
     border: solid, 2px, rgb(255, 255, 255);
@@ -313,6 +322,7 @@ span{
 }
 .utolsoharom{
     display: flex;
+    margin-left: 30px;
 }
 #uns1{
     width: 33%;
@@ -335,5 +345,24 @@ span{
     height: 50px;
 }
 #alsocsik{
-    background-color: rgb(58, 43, 34);
+    background-color: rgb(34, 33, 33);
+    color: rgb(196, 129, 30);
+    text-align: center;
+    height: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 1165px) {
+    #diebox{
+        display: block;
+    }
+    .training{
+        display: block;
+        padding-left: -20px;
+    }
+    .mission{
+        display: block;
+        padding-left: -20px;
+    }
 }
