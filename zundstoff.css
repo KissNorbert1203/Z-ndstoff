@@ -372,23 +372,6 @@ span{
     margin-bottom: 50px;
     padding-top: 30px;
 }
-@media (max-width: 1285px) {
-    .navbar .navbar-toggler {
-        display: block; /* Hamburger ikon látható */
-    }
-    .navbar .collapse {
-        display: none; /* Alapértelmezés szerint rejtett */
-    }
-}
-
-@media (min-width: 1286px) {
-    .navbar .navbar-toggler {
-        display: none; /* Hamburger ikon rejtve */
-    }
-    .navbar .collapse {
-        display: flex; /* Teljes menü megjelenik */
-    }
-}
 @media only screen and (max-width: 1165px) {
     #fejlecjobb ul li{
         display: block;
